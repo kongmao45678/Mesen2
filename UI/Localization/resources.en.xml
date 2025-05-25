@@ -1,580 +1,581 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Resources>
 	<Forms>
+	<Forms>
 		<Form ID="MainMenuView">
-			<Control ID="mnuFile">_File</Control>
-			<Control ID="mnuGame">_Game</Control>
-			<Control ID="mnuOptions">_Settings</Control>
-			<Control ID="mnuTools">_Tools</Control>
-			<Control ID="mnuDebug">_Debug</Control>
-			<Control ID="mnuHelp">_Help</Control>
+			<Control ID="mnuFile">_文件</Control>
+			<Control ID="mnuGame">_游戏</Control>
+			<Control ID="mnuOptions">_设置</Control>
+			<Control ID="mnuTools">_工具</Control>
+			<Control ID="mnuDebug">_调试</Control>
+			<Control ID="mnuHelp">_帮助</Control>
 		</Form>
 		<Form ID="AudioConfigView">
-			<Control ID="tpgGeneral">General</Control>
+			<Control ID="tpgGeneral">常规</Control>
 
-			<Control ID="chkMuteSoundInBackground">Mute sound when in background</Control>
-			<Control ID="chkReduceSoundInBackground">Reduce volume when in background</Control>
-			<Control ID="chkReduceSoundInFastForward">Reduce volume during fast forward/rewind</Control>
-			<Control ID="lblVolumeReduction">Volume Reduction (%)</Control>
-			<Control ID="lblVolumeReductionSettings">Volume Reduction Settings</Control>
-			<Control ID="chkEnableAudio">Enable Audio</Control>
-			<Control ID="lblSampleRate">Sample Rate:</Control>
-			<Control ID="lblLatencyMs">ms</Control>
-			<Control ID="lblLatencyWarning">Low values may cause sound problems</Control>
-			<Control ID="lblAudioLatency">Latency:</Control>
-			<Control ID="lblAudioDevice">Device:</Control>
-			<Control ID="lblVolume">Volume:</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="btnReset">Reset to Defaults</Control>
+			<Control ID="chkMuteSoundInBackground">后台运行时静音</Control>
+			<Control ID="chkReduceSoundInBackground">后台运行时降低音量</Control>
+			<Control ID="chkReduceSoundInFastForward">快进/快退时降低音量</Control>
+			<Control ID="lblVolumeReduction">音量降低百分比(%)</Control>
+			<Control ID="lblVolumeReductionSettings">音量降低设置</Control>
+			<Control ID="chkEnableAudio">启用音频</Control>
+			<Control ID="lblSampleRate">采样率：</Control>
+			<Control ID="lblLatencyMs">毫秒</Control>
+			<Control ID="lblLatencyWarning">较低的值可能导致声音问题</Control>
+			<Control ID="lblAudioLatency">延迟：</Control>
+			<Control ID="lblAudioDevice">设备：</Control>
+			<Control ID="lblVolume">音量：</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="btnReset">重置为默认值</Control>
 
-			<Control ID="lblAudioPlayerSettings">Audio Player Settings</Control>
-			<Control ID="lblAudioPlayerHint">When a track has an unknown duration:</Control>
-			<Control ID="chkAudioPlayerAutoDetectSilence">Move to the next track after</Control>
-			<Control ID="chkAudioPlayerEnableTrackLength">Limit track duration to</Control>
-			<Control ID="lblMillisecondsOfSilence">seconds of silence</Control>
-			<Control ID="lblSeconds">seconds</Control>
+			<Control ID="lblAudioPlayerSettings">音频播放器设置</Control>
+			<Control ID="lblAudioPlayerHint">当曲目时长未知时：</Control>
+			<Control ID="chkAudioPlayerAutoDetectSilence">检测到静音后切换到下一曲</Control>
+			<Control ID="chkAudioPlayerEnableTrackLength">限制曲目时长为</Control>
+			<Control ID="lblMillisecondsOfSilence">秒静音</Control>
+			<Control ID="lblSeconds">秒</Control>
 
-			<Control ID="tpgAdvanced">Advanced</Control>
-			<Control ID="chkDisableDynamicSampleRate">Disable dynamic sample rate</Control>
-			<Control ID="chkReverbEnabled">Enable reverb</Control>
-			<Control ID="chkCrossFeedEnabled">Enable cross feed</Control>
-			<Control ID="lblStrength">Strength</Control>
-			<Control ID="lblDelay">Delay</Control>
+			<Control ID="tpgAdvanced">高级</Control>
+			<Control ID="chkDisableDynamicSampleRate">禁用动态采样率</Control>
+			<Control ID="chkReverbEnabled">启用混响</Control>
+			<Control ID="chkCrossFeedEnabled">启用交叉馈送</Control>
+			<Control ID="lblStrength">强度</Control>
+			<Control ID="lblDelay">延迟</Control>
 
-			<Control ID="tpgEqualizer">Equalizer</Control>
-			<Control ID="chkEnableEqualizer">Enable Equalizer</Control>
+			<Control ID="tpgEqualizer">均衡器</Control>
+			<Control ID="chkEnableEqualizer">启用均衡器</Control>
 		</Form>
 		<Form ID="NesInputConfigView">
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAutoConfigureInput">Automatically configure controllers when loading a game</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
-			<Control ID="lblLightDetectionRadius">Light detection radius for light guns:</Control>
-			<Control ID="lblSmall">Small</Control>
-			<Control ID="lblLarge">Large</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="chkAutoConfigureInput">加载游戏时自动配置控制器</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下上+下或左+右）</Control>
+			<Control ID="lblLightDetectionRadius">光枪的光线检测半径：</Control>
+			<Control ID="lblSmall">小</Control>
+			<Control ID="lblLarge">大</Control>
 			
-			<Control ID="grpHardware">Hardware buttons</Control>
+			<Control ID="grpHardware">硬件按钮</Control>
 
-			<Control ID="lblFourScoreConfig">Four Score Configuration</Control>
-			<Control ID="lblFourPlayerAdapterConfig">4-Player Adapter Configuration</Control>
-			<Control ID="lblTwoPlayerAdapterConfig">2-Player Adapter Configuration</Control>
+			<Control ID="lblFourScoreConfig">Four Score 配置</Control>
+			<Control ID="lblFourPlayerAdapterConfig">4人适配器配置</Control>
+			<Control ID="lblTwoPlayerAdapterConfig">2人适配器配置</Control>
 			
-			<Control ID="btnSetup">Setup</Control>
-			<Control ID="lblPlayer1">Port 1:</Control>
-			<Control ID="lblPlayer2">Port 2:</Control>
+			<Control ID="btnSetup">设置</Control>
+			<Control ID="lblPlayer1">端口1：</Control>
+			<Control ID="lblPlayer2">端口2：</Control>
 			
-			<Control ID="lblPort1A">Port 1:</Control>
-			<Control ID="lblPort1B">Port 2:</Control>
-			<Control ID="lblPort1C">Port 3:</Control>
-			<Control ID="lblPort1D">Port 4:</Control>
+			<Control ID="lblPort1A">端口1：</Control>
+			<Control ID="lblPort1B">端口2：</Control>
+			<Control ID="lblPort1C">端口3：</Control>
+			<Control ID="lblPort1D">端口4：</Control>
 
-			<Control ID="lblExpPortA">Port 1:</Control>
-			<Control ID="lblExpPortB">Port 2:</Control>
-			<Control ID="lblExpPortC">Port 3:</Control>
-			<Control ID="lblExpPortD">Port 4:</Control>
+			<Control ID="lblExpPortA">扩展端口1：</Control>
+			<Control ID="lblExpPortB">扩展端口2：</Control>
+			<Control ID="lblExpPortC">扩展端口3：</Control>
+			<Control ID="lblExpPortD">扩展端口4：</Control>
 
-			<Control ID="lblExpansionDevice">Expansion device:</Control>
-			<Control ID="lblMapperInput">Cartridge:</Control>
+			<Control ID="lblExpansionDevice">扩展设备：</Control>
+			<Control ID="lblMapperInput">卡带：</Control>
 		</Form>
 		<Form ID="SnesInputConfigView">
-			<Control ID="lblPort1">Port 1:</Control>
-			<Control ID="lblPort2">Port 2:</Control>
-			<Control ID="lblMultitap1A">Port 1:</Control>
-			<Control ID="lblMultitap1B">Port 2:</Control>
-			<Control ID="lblMultitap1C">Port 3:</Control>
-			<Control ID="lblMultitap1D">Port 4:</Control>
-			<Control ID="lblMultitap2A">Port 1:</Control>
-			<Control ID="lblMultitap2B">Port 2:</Control>
-			<Control ID="lblMultitap2C">Port 3:</Control>
-			<Control ID="lblMultitap2D">Port 4:</Control>
-			<Control ID="grpMultitap">Multitap Configuration</Control>
-			<Control ID="lblKeyBinding">Warning: Your current configuration contains conflicting key bindings - some physical buttons on your keyboard or gamepad are mapped to multiple buttons on the NES controller. If this is not intentional, please review and correct your key bindings.</Control>
+			<Control ID="lblPort1">端口1：</Control>
+			<Control ID="lblPort2">端口2：</Control>
+			<Control ID="lblMultitap1A">多接口1-端口1：</Control>
+			<Control ID="lblMultitap1B">多接口1-端口2：</Control>
+			<Control ID="lblMultitap1C">多接口1-端口3：</Control>
+			<Control ID="lblMultitap1D">多接口1-端口4：</Control>
+			<Control ID="lblMultitap2A">多接口2-端口1：</Control>
+			<Control ID="lblMultitap2B">多接口2-端口2：</Control>
+			<Control ID="lblMultitap2C">多接口2-端口3：</Control>
+			<Control ID="lblMultitap2D">多接口2-端口4：</Control>
+			<Control ID="grpMultitap">多接口配置</Control>
+			<Control ID="lblKeyBinding">警告：当前配置包含冲突的按键绑定 - 部分键盘或手柄的物理按键被映射到多个NES控制器按键。若非故意，请检查并修正按键绑定。</Control>
 
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下上+下或左+右）</Control>
 		</Form>
 		<Form ID="InputConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblSmall">Small</Control>
-			<Control ID="lblLarge">Large</Control>
-			<Control ID="lblDeadzone">Controller axis deadzone size:</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblSmall">小</Control>
+			<Control ID="lblLarge">大</Control>
+			<Control ID="lblDeadzone">控制器轴死区大小：</Control>
 
-			<Control ID="lblSensitivity">Mouse speed:</Control>
-			<Control ID="lblLow">Slow</Control>
-			<Control ID="lblHigh">Fast</Control>
+			<Control ID="lblSensitivity">鼠标速度：</Control>
+			<Control ID="lblLow">慢</Control>
+			<Control ID="lblHigh">快</Control>
 
-			<Control ID="lblForceFeedbackIntensity">Force feedback (rumble):</Control>
-			<Control ID="lblForceFeedbackLow">Disabled</Control>
-			<Control ID="lblForceFeedbackHigh">Maximum</Control>
+			<Control ID="lblForceFeedbackIntensity">力反馈（震动）：</Control>
+			<Control ID="lblForceFeedbackLow">禁用</Control>
+			<Control ID="lblForceFeedbackHigh">最大</Control>
 
-			<Control ID="tpgDisplay">Display</Control>
-			<Control ID="lblDisplayInputPorts">Display ports: </Control>
-			<Control ID="chkDisplayPort1">Player 1</Control>
-			<Control ID="chkDisplayPort2">Player 2</Control>
-			<Control ID="chkDisplayPort3">Player 3</Control>
-			<Control ID="chkDisplayPort4">Player 4</Control>
-			<Control ID="chkDisplayPort5">Player 5</Control>
-			<Control ID="chkDisplayPort6">Player 6</Control>
-			<Control ID="chkDisplayPort7">Player 7</Control>
-			<Control ID="chkDisplayPort8">Player 8</Control>
-			<Control ID="lblDisplayPosition">Display position:</Control>
-			<Control ID="chkDisplayInputHorizontally">Horizontal display</Control>
+			<Control ID="tpgDisplay">显示</Control>
+			<Control ID="lblDisplayInputPorts">显示端口：</Control>
+			<Control ID="chkDisplayPort1">玩家1</Control>
+			<Control ID="chkDisplayPort2">玩家2</Control>
+			<Control ID="chkDisplayPort3">玩家3</Control>
+			<Control ID="chkDisplayPort4">玩家4</Control>
+			<Control ID="chkDisplayPort5">玩家5</Control>
+			<Control ID="chkDisplayPort6">玩家6</Control>
+			<Control ID="chkDisplayPort7">玩家7</Control>
+			<Control ID="chkDisplayPort8">玩家8</Control>
+			<Control ID="lblDisplayPosition">显示位置：</Control>
+			<Control ID="chkDisplayInputHorizontally">水平显示</Control>
 
-			<Control ID="chkHidePointerForLightGuns">Hide mouse pointer when using light guns</Control>
+			<Control ID="chkHidePointerForLightGuns">使用光枪时隐藏鼠标指针</Control>
 		</Form>
 		<Form ID="InputComboBox">
-			<Control ID="btnSetup">Setup</Control>
+			<Control ID="btnSetup">设置</Control>
 		</Form>
 		<Form ID="OverscanInput">
-			<Control ID="lblLeft">Left</Control>
-			<Control ID="lblTop">Top</Control>
-			<Control ID="lblBottom">Bottom</Control>
-			<Control ID="lblRight">Right</Control>
+			<Control ID="lblLeft">左</Control>
+			<Control ID="lblTop">上</Control>
+			<Control ID="lblBottom">下</Control>
+			<Control ID="lblRight">右</Control>
 		</Form>
 		<Form ID="VideoConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="chkIntegerFpsMode">Enable integer FPS mode (e.g: run at 60 fps instead of 60.1)</Control>
-			<Control ID="chkVerticalSync">Enable vertical sync</Control>
-			<Control ID="lblDisplayRatio">Aspect Ratio:</Control>
-			<Control ID="lblCustomRatio">Custom Ratio: </Control>
-			<Control ID="chkBilinearInterpolation">Use bilinear interpolation when scaling</Control>
-			<Control ID="chkUseSrgbTextureFormat">Use sRGB when applying interpolation</Control>
-			<Control ID="lblFullscreenResolution">Fullscreen Resolution:</Control>
-			<Control ID="chkFullscreenForceIntegerScale">Use integer scale values when entering fullscreen mode</Control>
-			<Control ID="chkUseExclusiveFullscreen">Use exclusive fullscreen mode</Control>
-			<Control ID="lblRequestedRefreshRateNtsc">Refresh Rate (NTSC / 60 Hz):</Control>
-			<Control ID="lblRequestedRefreshRatePal">Refresh Rate (PAL / 50 Hz):</Control>
-			<Control ID="chkEnableGameSpecificOverscan">Enable game-specific overscan settings</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="chkIntegerFpsMode">启用整数帧率模式（例如：以60fps运行而非60.1fps）</Control>
+			<Control ID="chkVerticalSync">启用垂直同步</Control>
+			<Control ID="lblDisplayRatio">宽高比：</Control>
+			<Control ID="lblCustomRatio">自定义宽高比：</Control>
+			<Control ID="chkBilinearInterpolation">缩放时使用双线性插值</Control>
+			<Control ID="chkUseSrgbTextureFormat">应用插值时使用sRGB</Control>
+			<Control ID="lblFullscreenResolution">全屏分辨率：</Control>
+			<Control ID="chkFullscreenForceIntegerScale">进入全屏模式时使用整数缩放值</Control>
+			<Control ID="chkUseExclusiveFullscreen">使用独占全屏模式</Control>
+			<Control ID="lblRequestedRefreshRateNtsc">刷新率（NTSC/60Hz）：</Control>
+			<Control ID="lblRequestedRefreshRatePal">刷新率（PAL/50Hz）：</Control>
+			<Control ID="chkEnableGameSpecificOverscan">启用游戏特定过扫描设置</Control>
 
-			<Control ID="tpgPicture">Picture</Control>
-			<Control ID="btnSelectPreset">Select Preset...</Control>
-			<Control ID="btnReset">Reset</Control>
+			<Control ID="tpgPicture">画面</Control>
+			<Control ID="btnSelectPreset">选择预设...</Control>
+			<Control ID="btnReset">重置</Control>
 			
-			<Control ID="lblPictureSettings">General settings</Control>
-			<Control ID="trkBrightness">Brightness</Control>
-			<Control ID="trkContrast">Contrast</Control>
-			<Control ID="trkHue">Hue</Control>
-			<Control ID="trkSaturation">Saturation</Control>
+			<Control ID="lblPictureSettings">常规设置</Control>
+			<Control ID="trkBrightness">亮度</Control>
+			<Control ID="trkContrast">对比度</Control>
+			<Control ID="trkHue">色相</Control>
+			<Control ID="trkSaturation">饱和度</Control>
 			
-			<Control ID="lblFilterSettings">Filter settings</Control>
-			<Control ID="lblVideoFilter">Filter:</Control>
+			<Control ID="lblFilterSettings">滤镜设置</Control>
+			<Control ID="lblVideoFilter">滤镜：</Control>
 			
-			<Control ID="lblNtscBlarggSettings">NTSC settings (blargg)</Control>
-			<Control ID="trkArtifacts">Artifacts</Control>
-			<Control ID="trkBleed">Bleed</Control>
-			<Control ID="trkFringing">Fringing</Control>
-			<Control ID="trkGamma">Gamma</Control>
-			<Control ID="trkResolution">Resolution</Control>
-			<Control ID="trkSharpness">Sharpness</Control>
-			<Control ID="chkMergeFields">Merge Fields</Control>
-			<Control ID="chkVerticalBlend">Apply Vertical Blending</Control>
+			<Control ID="lblNtscBlarggSettings">NTSC设置（blargg）</Control>
+			<Control ID="trkArtifacts">伪影</Control>
+			<Control ID="trkBleed">色彩渗透</Control>
+			<Control ID="trkFringing">边缘泛色</Control>
+			<Control ID="trkGamma">伽马值</Control>
+			<Control ID="trkResolution">分辨率</Control>
+			<Control ID="trkSharpness">锐度</Control>
+			<Control ID="chkMergeFields">合并场</Control>
+			<Control ID="chkVerticalBlend">应用垂直混合</Control>
 
-			<Control ID="lblNtscBisqwitSettings">NTSC settings (Bisqwit)</Control>
-			<Control ID="lblNtscFilterScale">Scale:</Control>
-			<Control ID="trkNtscYFilterLength">Y Filter (Horizontal Blur)</Control>
-			<Control ID="trkNtscIFilterLength">I Filter (Horizontal Bleed)</Control>
-			<Control ID="trkNtscQFilterLength">Q Filter (Horizontal Bleed)</Control>
+			<Control ID="lblNtscBisqwitSettings">NTSC设置（Bisqwit）</Control>
+			<Control ID="lblNtscFilterScale">缩放：</Control>
+			<Control ID="trkNtscYFilterLength">Y滤镜（水平模糊）</Control>
+			<Control ID="trkNtscIFilterLength">I滤镜（水平渗透）</Control>
+			<Control ID="trkNtscQFilterLength">Q滤镜（水平渗透）</Control>
 
-			<Control ID="lblLcdGridSettings">LCD Grid Settings</Control>
-			<Control ID="trkLcdGridTopLeftBrightness">Brightness - Top Left</Control>
-			<Control ID="trkLcdGridTopRightBrightness">Brightness - Top Right</Control>
-			<Control ID="trkLcdGridBottomLeftBrightness">Brightness - Bottom Left</Control>
-			<Control ID="trkLcdGridBottomRightBrightness">Brightness - Bottom Right</Control>
+			<Control ID="lblLcdGridSettings">LCD网格设置</Control>
+			<Control ID="trkLcdGridTopLeftBrightness">亮度 - 左上</Control>
+			<Control ID="trkLcdGridTopRightBrightness">亮度 - 右上</Control>
+			<Control ID="trkLcdGridBottomLeftBrightness">亮度 - 左下</Control>
+			<Control ID="trkLcdGridBottomRightBrightness">亮度 - 右下</Control>
 
-			<Control ID="grpScanlines">Scanlines</Control>
-			<Control ID="trkScanlines">Scanlines</Control>
-			<Control ID="btnResetPictureSettings">Reset</Control>
-			<Control ID="mnuPresetComposite">Composite</Control>
-			<Control ID="mnuPresetSVideo">S-Video</Control>
+			<Control ID="grpScanlines">扫描线</Control>
+			<Control ID="trkScanlines">扫描线</Control>
+			<Control ID="btnResetPictureSettings">重置</Control>
+			<Control ID="mnuPresetComposite">复合视频</Control>
+			<Control ID="mnuPresetSVideo">S视频</Control>
 			<Control ID="mnuPresetRgb">RGB</Control>
-			<Control ID="mnuPresetMonochrome">Monochrome</Control>
+			<Control ID="mnuPresetMonochrome">单色</Control>
 
-			<Control ID="tpgAdvanced">Advanced</Control>
-			<Control ID="lblScreenRotation">Screen Rotation:</Control>
-			<Control ID="chkUseSoftwareRenderer">Use software renderer (requires restart)</Control>
+			<Control ID="tpgAdvanced">高级</Control>
+			<Control ID="lblScreenRotation">屏幕旋转：</Control>
+			<Control ID="chkUseSoftwareRenderer">使用软件渲染器（需要重启）</Control>
 		</Form>
 		<Form ID="EmulationConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblEmuSpeedHint">%  (0 = Maximum speed)</Control>
-			<Control ID="lblEmulationSpeed">Emulation Speed:</Control>
-			<Control ID="lblTurboSpeedHint">%  (0 = Maximum speed)</Control>
-			<Control ID="lblTurboSpeed">Fast Forward Speed:</Control>
-			<Control ID="lblRewindSpeedHint">%  (0 = Maximum speed)</Control>
-			<Control ID="lblRewindSpeed">Rewind Speed:</Control>
-			<Control ID="lblRunAhead">Run Ahead:</Control>
-			<Control ID="lblRunAheadFrames">frames (reduces input lag, increases CPU usage)</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblEmuSpeedHint">% （0=最大速度）</Control>
+			<Control ID="lblEmulationSpeed">模拟速度：</Control>
+			<Control ID="lblTurboSpeedHint">% （0=最大速度）</Control>
+			<Control ID="lblTurboSpeed">快进速度：</Control>
+			<Control ID="lblRewindSpeedHint">% （0=最大速度）</Control>
+			<Control ID="lblRewindSpeed">倒带速度：</Control>
+			<Control ID="lblRunAhead">预运行：</Control>
+			<Control ID="lblRunAheadFrames">帧（减少输入延迟，增加CPU占用）</Control>
 
-			<Control ID="tpgFirmwares">Firmwares</Control>
+			<Control ID="tpgFirmwares">固件</Control>
 			<Control ID="lblNes">NES</Control>
 			<Control ID="lblSnes">SNES</Control>
 			<Control ID="lblGameboy">Game Boy</Control>
 			<Control ID="lblGba">Game Boy Advance</Control>
 			<Control ID="lblPce">PC Engine</Control>
-			<Control ID="lblSms">SMS / Game Gear</Control>
+			<Control ID="lblSms">SMS/Game Gear</Control>
 			<Control ID="lblColecoVision">ColecoVision</Control>
 			<Control ID="lblWonderSwan">WonderSwan</Control>
-			<Control ID="lblOtherConsoles">Other systems</Control>
+			<Control ID="lblOtherConsoles">其他主机</Control>
 			
-			<Control ID="lblWrongHash">File does not contain the expected data, and may not work correctly.</Control>
+			<Control ID="lblWrongHash">文件数据不符合预期，可能无法正常工作。</Control>
 		</Form>
 
 		<Form ID="VideoConfigOverrideView">
-			<Control ID="lblHeader">Global settings overrides</Control>
+			<Control ID="lblHeader">全局设置覆盖</Control>
 
-			<Control ID="chkOverrideVideoFilter">Override video filter:</Control>
-			<Control ID="chkOverrideAspectRatio">Override aspect ratio:</Control>
-			<Control ID="lblCustomRatio">Custom Ratio: </Control>
+			<Control ID="chkOverrideVideoFilter">覆盖视频滤镜：</Control>
+			<Control ID="chkOverrideAspectRatio">覆盖宽高比：</Control>
+			<Control ID="lblCustomRatio">自定义宽高比：</Control>
 		</Form>
 
 		<Form ID="SnesConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblRegion">Region:</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblRegion">地区：</Control>
 			
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="lblAudioInterpolation">Audio interpolation type:</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblChannel1">Channel 1</Control>
-			<Control ID="lblChannel2">Channel 2</Control>
-			<Control ID="lblChannel3">Channel 3</Control>
-			<Control ID="lblChannel4">Channel 4</Control>
-			<Control ID="lblChannel5">Channel 5</Control>
-			<Control ID="lblChannel6">Channel 6</Control>
-			<Control ID="lblChannel7">Channel 7</Control>
-			<Control ID="lblChannel8">Channel 8</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="lblAudioInterpolation">音频插值类型：</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannel1">声道1</Control>
+			<Control ID="lblChannel2">声道2</Control>
+			<Control ID="lblChannel3">声道3</Control>
+			<Control ID="lblChannel4">声道4</Control>
+			<Control ID="lblChannel5">声道5</Control>
+			<Control ID="lblChannel6">声道6</Control>
+			<Control ID="lblChannel7">声道7</Control>
+			<Control ID="lblChannel8">声道8</Control>
 
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
-			<Control ID="chkRandomPowerOnState">Randomize power-on state</Control>
-			<Control ID="chkStrictBoardMappings">Use strict board mappings (breaks some romhacks)</Control>
-			<Control ID="lblSpcClockSpeedAdjustment">SPC clock speed adjustment: </Control>
-			<Control ID="lblNotRecommended">(not recommended)</Control>
-			<Control ID="tpgInput">Input</Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
+			<Control ID="chkRandomPowerOnState">随机化开机状态</Control>
+			<Control ID="chkStrictBoardMappings">使用严格板卡映射（可能破坏部分修改ROM）</Control>
+			<Control ID="lblSpcClockSpeedAdjustment">SPC时钟速度调整：</Control>
+			<Control ID="lblNotRecommended">（不推荐）</Control>
+			<Control ID="tpgInput">输入</Control>
 
-			<Control ID="tpgOverclocking">Overclocking</Control>
-			<Control ID="lblOverclockHint">Overclocking can help reduce or remove slowdowns in games (but it can also cause issues). To overclock, try setting the "before NMI" value to a few hundred lines (e.g 300+). If this breaks the game, try lowering the value or using the "after NMI" field instead.</Control>
-			<Control ID="grpPpuTiming">PPU Vertical Blank Configuration</Control>
-			<Control ID="lblExtraScanlinesBeforeNmi">Additional scanlines before NMI:</Control>
-			<Control ID="lblExtraScanlinesAfterNmi">Additional scanlines after NMI:</Control>
-			<Control ID="lblChipSpecificOc">Chip-specific overclocking</Control>
-			<Control ID="lblSuperFxClockSpeed">Super FX clock speed (%):</Control>
+			<Control ID="tpgOverclocking">超频</Control>
+			<Control ID="lblOverclockHint">超频可减少或消除游戏卡顿（但可能导致问题）。尝试将“NMI前”值设为几百行（例如300+）。若游戏异常，尝试降低该值或使用“NMI后”字段。</Control>
+			<Control ID="grpPpuTiming">PPU垂直空白配置</Control>
+			<Control ID="lblExtraScanlinesBeforeNmi">NMI前额外扫描线：</Control>
+			<Control ID="lblExtraScanlinesAfterNmi">NMI后额外扫描线：</Control>
+			<Control ID="lblChipSpecificOc">芯片特定超频</Control>
+			<Control ID="lblSuperFxClockSpeed">Super FX时钟速度（%）：</Control>
 
 			<Control ID="tpgBsx">BS-X</Control>
-			<Control ID="lblBsxDateTime">BS-X/Satellaview Date and Time Settings</Control>
-			<Control ID="lblCurrentDate">Use current local time</Control>
-			<Control ID="lblCustomDate">Use custom date and time: </Control>
-			<Control ID="lblDate">Date: </Control>
-			<Control ID="lblTime">Time: </Control>
+			<Control ID="lblBsxDateTime">BS-X/Satellaview日期时间设置</Control>
+			<Control ID="lblCurrentDate">使用当前本地时间</Control>
+			<Control ID="lblCustomDate">使用自定义日期时间：</Control>
+			<Control ID="lblDate">日期：</Control>
+			<Control ID="lblTime">时间：</Control>
 
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
 
-			<Control ID="chkBlendHighResolutionModes">Blend high resolution modes</Control>
-			<Control ID="chkHideBgLayer1">Hide background layer 1</Control>
-			<Control ID="chkHideBgLayer2">Hide background layer 2</Control>
-			<Control ID="chkHideBgLayer3">Hide background layer 3</Control>
-			<Control ID="chkHideBgLayer4">Hide background layer 4</Control>
-			<Control ID="chkHideSprites">Hide sprites</Control>
-			<Control ID="lblOverscan">Overscan</Control>
-			<Control ID="chkDisableFrameSkipping">Disable frame skipping when fast forwarding</Control>
-			<Control ID="chkForceFixedResolution">Use fixed output resolution (2x scale, ≈512x478)</Control>
+			<Control ID="chkBlendHighResolutionModes">混合高分辨率模式</Control>
+			<Control ID="chkHideBgLayer1">隐藏背景层1</Control>
+			<Control ID="chkHideBgLayer2">隐藏背景层2</Control>
+			<Control ID="chkHideBgLayer3">隐藏背景层3</Control>
+			<Control ID="chkHideBgLayer4">隐藏背景层4</Control>
+			<Control ID="chkHideSprites">隐藏精灵</Control>
+			<Control ID="lblOverscan">过扫描</Control>
+			<Control ID="chkDisableFrameSkipping">快进时禁用跳帧</Control>
+			<Control ID="chkForceFixedResolution">使用固定输出分辨率（2倍缩放，≈512x478）</Control>
 		</Form>
 		<Form ID="NesConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblRegion">Region:</Control>
-			<Control ID="chkEnableHdPacks">Enable HD packs</Control>
-			<Control ID="chkDisableGameDatabase">Disable built-in game database</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblRegion">地区：</Control>
+			<Control ID="chkEnableHdPacks">启用高清包</Control>
+			<Control ID="chkDisableGameDatabase">禁用内置游戏数据库</Control>
 
-			<Control ID="lblFdsSettings">Famicom Disk System Settings</Control>
-			<Control ID="chkFdsAutoLoadDisk">Automatically insert disk 1 side A when starting FDS games</Control>
-			<Control ID="chkFdsFastForwardOnLoad">Automatically fast forward FDS games when disk or BIOS is loading</Control>
-			<Control ID="chkFdsAutoInsertDisk">Automatically switch disks for FDS games</Control>
+			<Control ID="lblFdsSettings">红白机磁盘系统设置</Control>
+			<Control ID="chkFdsAutoLoadDisk">启动FDS游戏时自动插入磁盘1面A</Control>
+			<Control ID="chkFdsFastForwardOnLoad">加载磁盘或BIOS时自动快进</Control>
+			<Control ID="chkFdsAutoInsertDisk">自动切换FDS游戏磁盘</Control>
 
-			<Control ID="lblVsDualSystem">VS. DualSystem Settings</Control>
-			<Control ID="lblVsDualPlayAudio">Play audio for:</Control>
-			<Control ID="lblVsDualShowVideo">Show video for:</Control>
+			<Control ID="lblVsDualSystem">VS. DualSystem设置</Control>
+			<Control ID="lblVsDualPlayAudio">播放音频：</Control>
+			<Control ID="lblVsDualShowVideo">显示视频：</Control>
 
-			<Control ID="tpgInput">Input</Control>
+			<Control ID="tpgInput">输入</Control>
 
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblPalette">Palette</Control>
-			<Control ID="chkShowColorIndexes">Show color indexes</Control>
-			<Control ID="chkUseCustomVsPalette">Use this palette for VS System games</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblPalette">调色板</Control>
+			<Control ID="chkShowColorIndexes">显示颜色索引</Control>
+			<Control ID="chkUseCustomVsPalette">VS系统游戏使用此调色板</Control>
 
-			<Control ID="chkRemoveSpriteLimit">Remove sprite limit (Reduces flickering)</Control>
-			<Control ID="chkAdaptiveSpriteLimit">Automatically re-enable sprite limit to prevent graphical glitches, when possible</Control>
-			<Control ID="chkEnablePalBorders">Enable PAL black borders (when running in PAL/Dendy mode)</Control>
-			<Control ID="chkDisableBackground">Disable background</Control>
-			<Control ID="chkDisableSprites">Disable sprites</Control>
-			<Control ID="chkForceBackgroundFirstColumn">Force background display in first column</Control>
-			<Control ID="chkForceSpritesFirstColumn">Force sprite display in first column</Control>
+			<Control ID="chkRemoveSpriteLimit">移除精灵限制（减少闪烁）</Control>
+			<Control ID="chkAdaptiveSpriteLimit">自动重新启用精灵限制以避免图像错误（如有可能）</Control>
+			<Control ID="chkEnablePalBorders">启用PAL黑边（PAL/Dendy模式时）</Control>
+			<Control ID="chkDisableBackground">禁用背景</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
+			<Control ID="chkForceBackgroundFirstColumn">强制首列显示背景</Control>
+			<Control ID="chkForceSpritesFirstColumn">强制首列显示精灵</Control>
 
-			<Control ID="lblOverscan">Overscan</Control>
+			<Control ID="lblOverscan">过扫描</Control>
 			<Control ID="lblOverscanNtsc">NTSC</Control>
 			<Control ID="lblOverscanPal">PAL</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="lblVolume">Channel volume</Control>
-			<Control ID="lblPanning">Channel panning</Control>
-			<Control ID="lblAdvanced">Advanced</Control>
-			<Control ID="chkSwapDutyCycles">Swap square channels duty cycles (mimics old clones)</Control>
-			<Control ID="chkReverseDpcmBitOrder">Reverse DPCM bit order (higher or lower quality, depends on game)</Control>
-			<Control ID="chkSilenceTriangleHighFreq">Mute ultrasonic frequencies on triangle channel (reduces popping)</Control>
-			<Control ID="chkReduceDmcPopping">Reduce popping sounds on the DMC channel</Control>
-			<Control ID="chkDisableNoiseModeFlag">Disable noise channel mode flag (mimics oldest Famicom models)</Control>
-			<Control ID="grpEffects">Effects</Control>
-			<Control ID="lblStereoEffect">Stereo effect: </Control>
-			<Control ID="lblDelay">Delay: </Control>
-			<Control ID="lblStrength">Strength: </Control>
-			<Control ID="lblMs">ms</Control>
-			<Control ID="lblAngle">angle (in degrees)</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="lblVolume">声道音量</Control>
+			<Control ID="lblPanning">声道声像</Control>
+			<Control ID="lblAdvanced">高级</Control>
+			<Control ID="chkSwapDutyCycles">交换方波声道占空比（模拟旧克隆机）</Control>
+			<Control ID="chkReverseDpcmBitOrder">反转DPCM位顺序（音质可能提升或下降，取决于游戏）</Control>
+			<Control ID="chkSilenceTriangleHighFreq">静音三角波声道超声波频率（减少爆音）</Control>
+			<Control ID="chkReduceDmcPopping">减少DMC声道爆音</Control>
+			<Control ID="chkDisableNoiseModeFlag">禁用噪音声道模式标志（模拟最早期红白机）</Control>
+			<Control ID="grpEffects">效果</Control>
+			<Control ID="lblStereoEffect">立体声效果：</Control>
+			<Control ID="lblDelay">延迟：</Control>
+			<Control ID="lblStrength">强度：</Control>
+			<Control ID="lblMs">毫秒</Control>
+			<Control ID="lblAngle">角度（度）</Control>
 
-			<Control ID="tpgOverclocking">Overclocking</Control>
-			<Control ID="lblOverclockHint">Overclocking can help reduce or remove slowdowns in games (but it can also cause issues). To overclock, try setting the "before NMI" value to a few hundred lines (e.g 300+). If this breaks the game, try lowering the value or using the "after NMI" field instead.</Control>
-			<Control ID="grpPpuTiming">PPU Vertical Blank Configuration</Control>
-			<Control ID="lblExtraScanlinesBeforeNmi">Additional scanlines before NMI:</Control>
-			<Control ID="lblExtraScanlinesAfterNmi">Additional scanlines after NMI:</Control>
+			<Control ID="tpgOverclocking">超频</Control>
+			<Control ID="lblOverclockHint">超频可减少或消除游戏卡顿（但可能导致问题）。尝试将“NMI前”值设为几百行（例如300+）。若游戏异常，尝试降低该值或使用“NMI后”字段。</Control>
+			<Control ID="grpPpuTiming">PPU垂直空白配置</Control>
+			<Control ID="lblExtraScanlinesBeforeNmi">NMI前额外扫描线：</Control>
+			<Control ID="lblExtraScanlinesAfterNmi">NMI后额外扫描线：</Control>
 
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblDeveloperSettings">Recommended settings for developers (homebrew / ROM hacking)</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
-			<Control ID="chkMapperRandomPowerOnState">Randomize power-on state for mappers</Control>
-			<Control ID="chkRandomizeCpuPpuAlignment">Randomize power-on/reset CPU/PPU alignment</Control>
-			<Control ID="chkEnableOamDecay">Enable PPU OAM decay</Control>
-			<Control ID="chkEnablePpuOamRowCorruption">Enable PPU OAM row corruption emulation</Control>
-			<Control ID="chkEnablePpu2006ScrollGlitch">Enable PPU $2006 scroll glitch emulation</Control>
-			<Control ID="chkEnablePpu2000ScrollGlitch">Enable PPU $2000/$2005/$2006 first-write scroll glitch emulation</Control>
-			<Control ID="chkRestrictPpuAccessOnFirstFrame">Clear PPU $2000/1/5/6/7 throughout first frame after reset/power on</Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblDeveloperSettings">开发者推荐设置（自制/ROM修改）</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
+			<Control ID="chkMapperRandomPowerOnState">随机化Mapper开机状态</Control>
+			<Control ID="chkRandomizeCpuPpuAlignment">随机化CPU/PPU开机/重置对齐</Control>
+			<Control ID="chkEnableOamDecay">启用PPU OAM衰减</Control>
+			<Control ID="chkEnablePpuOamRowCorruption">启用PPU OAM行损坏模拟</Control>
+			<Control ID="chkEnablePpu2006ScrollGlitch">启用PPU $2006滚动错误模拟</Control>
+			<Control ID="chkEnablePpu2000ScrollGlitch">启用PPU $2000/$2005/$2006首次写入滚动错误模拟</Control>
+			<Control ID="chkRestrictPpuAccessOnFirstFrame">重置/开机后首帧清空PPU $2000/1/5/6/7</Control>
 
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
-			<Control ID="chkDisableOamAddrBug">Disable PPU OAMADDR bug emulation</Control>
-			<Control ID="chkDisablePaletteRead">Disable PPU palette reads</Control>
-			<Control ID="chkDisablePpu2004Reads">Disable PPU $2004 reads</Control>
-			<Control ID="chkEnablePpuSpriteEvalBug">Enable erroneous sprite pixels at X=255 (2C02B and earlier)</Control>
-			<Control ID="chkDisablePpuReset">Do not reset PPU when resetting console (Famicom behavior)</Control>
-			<Control ID="chkDisableGameGenieBusConflicts">Disable Game Genie bus conflict emulation</Control>
-			<Control ID="chkDisableFlashSaves">Disable flash saves (UNROM512 / GTROM / Rainbow)</Control>
-			<Control ID="chkOverwriteOriginalRom">Update original ROM file directly when modified (FDS / Flash)</Control>
-			<Control ID="chkEnableDmcSampleDuplicationGlitch">Enable DMC sample duplication glitch (late-G &amp; H CPU behavior)</Control>
-			<Control ID="chkEnableCpuTestMode">Enable CPU test mode registers</Control>
-			<Control ID="lblConsoleType">Console model:</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
+			<Control ID="chkDisableOamAddrBug">禁用PPU OAMADDR错误模拟</Control>
+			<Control ID="chkDisablePaletteRead">禁用PPU调色板读取</Control>
+			<Control ID="chkDisablePpu2004Reads">禁用PPU $2004读取</Control>
+			<Control ID="chkEnablePpuSpriteEvalBug">启用X=255处错误精灵像素（2C02B及更早版本）</Control>
+			<Control ID="chkDisablePpuReset">重置主机时不重置PPU（红白机行为）</Control>
+			<Control ID="chkDisableGameGenieBusConflicts">禁用Game Genie总线冲突模拟</Control>
+			<Control ID="chkDisableFlashSaves">禁用闪存保存（UNROM512/GTROM/Rainbow）</Control>
+			<Control ID="chkOverwriteOriginalRom">修改时直接更新原始ROM文件（FDS/闪存）</Control>
+			<Control ID="chkEnableDmcSampleDuplicationGlitch">启用DMC采样重复错误（后期G&H CPU行为）</Control>
+			<Control ID="chkEnableCpuTestMode">启用CPU测试模式寄存器</Control>
+			<Control ID="lblConsoleType">主机型号：</Control>
 		</Form>
 
 		<Form ID="GameboyConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblModel">Model:</Control>
-			<Control ID="chkUseSgb2">In Super Game Boy mode, use SGB2 timings and behavior</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblModel">型号：</Control>
+			<Control ID="chkUseSgb2">超级Game Boy模式下使用SGB2时序和行为</Control>
 			
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下上+下或左+右）</Control>
 			
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblGameboyPalette">Game Boy (DMG) Palette</Control>
-			<Control ID="lblGbBackground">Background:</Control>
-			<Control ID="lblGbObj0">Sprites #1:</Control>
-			<Control ID="lblGbObj1">Sprites #2:</Control>
-			<Control ID="btnSelectPreset">Select Preset...</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblGameboyPalette">Game Boy（DMG）调色板</Control>
+			<Control ID="lblGbBackground">背景：</Control>
+			<Control ID="lblGbObj0">精灵#1：</Control>
+			<Control ID="lblGbObj1">精灵#2：</Control>
+			<Control ID="btnSelectPreset">选择预设...</Control>
 
-			<Control ID="lblGrayscale">Grayscale</Control>
-			<Control ID="lblGrayscaleHighContrast">Grayscale (high contrast)</Control>
-			<Control ID="lblGreen">Green</Control>
-			<Control ID="lblBrown">Brown</Control>
+			<Control ID="lblGrayscale">灰度</Control>
+			<Control ID="lblGrayscaleHighContrast">灰度（高对比度）</Control>
+			<Control ID="lblGreen">绿色</Control>
+			<Control ID="lblBrown">棕色</Control>
 
-			<Control ID="lblLcdSettings">LCD Settings</Control>
-			<Control ID="chkGbBlendFrames">Enable LCD frame blending</Control>
-			<Control ID="chkGbcAdjustColors">Enable GBC LCD color emulation</Control>
-			<Control ID="chkDisableBackground">Disable background</Control>
-			<Control ID="chkDisableSprites">Disable sprites</Control>
+			<Control ID="lblLcdSettings">LCD设置</Control>
+			<Control ID="chkGbBlendFrames">启用LCD帧混合</Control>
+			<Control ID="chkGbcAdjustColors">启用GBC LCD色彩模拟</Control>
+			<Control ID="chkDisableBackground">禁用背景</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
 
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
-			<Control ID="chkHideSgbBorders">Hide Super Game Boy borders</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
+			<Control ID="chkHideSgbBorders">隐藏超级Game Boy边框</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblSquare1">Square 1</Control>
-			<Control ID="lblSquare2">Square 2</Control>
-			<Control ID="lblWave">Wave</Control>
-			<Control ID="lblNoise">Noise</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblSquare1">方波1</Control>
+			<Control ID="lblSquare2">方波2</Control>
+			<Control ID="lblWave">波表</Control>
+			<Control ID="lblNoise">噪音</Control>
 			
-			<Control ID="tpgInput">Input</Control>
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="lblPlayer1">Player 1</Control>
-			<Control ID="btnSetup">Setup</Control>
+			<Control ID="tpgInput">输入</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="lblPlayer1">玩家1</Control>
+			<Control ID="btnSetup">设置</Control>
 		</Form>
 		
 		<Form ID="GbaConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="chkSkipBootScreen">Skip boot screen</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="chkSkipBootScreen">跳过启动画面</Control>
 
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblSaveType">Save Type:</Control>
-			<Control ID="lblRtcType">Real-Time Clock:</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
-			<Control ID="chkEnableMgbaLogApi">Enable mGBA log API</Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblSaveType">保存类型：</Control>
+			<Control ID="lblRtcType">实时时钟：</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下上+下或左+右）</Control>
+			<Control ID="chkEnableMgbaLogApi">启用mGBA日志API</Control>
 
-			<Control ID="grpOverclocking">Overclocking</Control>
-			<Control ID="lblOverclockHint">Overclocking can help reduce or remove slowdowns in games (but it can also cause issues). To overclock, increase the value below.</Control>
-			<Control ID="lblOverclockScanlineCount">Additional scanlines:</Control>
+			<Control ID="grpOverclocking">超频</Control>
+			<Control ID="lblOverclockHint">超频可减少或消除游戏卡顿（但可能导致问题）。尝试增大下方值。</Control>
+			<Control ID="lblOverclockScanlineCount">额外扫描线：</Control>
 
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblLcdSettings">LCD Settings</Control>
-			<Control ID="chkGbBlendFrames">Enable LCD frame blending</Control>
-			<Control ID="chkGbaAdjustColors">Enable LCD color emulation</Control>
-			<Control ID="chkHideBgLayer1">Hide background layer 1</Control>
-			<Control ID="chkHideBgLayer2">Hide background layer 2</Control>
-			<Control ID="chkHideBgLayer3">Hide background layer 3</Control>
-			<Control ID="chkHideBgLayer4">Hide background layer 4</Control>
-			<Control ID="chkDisableFrameSkipping">Disable frame skipping when fast forwarding</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblLcdSettings">LCD设置</Control>
+			<Control ID="chkGbBlendFrames">启用LCD帧混合</Control>
+			<Control ID="chkGbaAdjustColors">启用LCD色彩模拟</Control>
+			<Control ID="chkHideBgLayer1">隐藏背景层1</Control>
+			<Control ID="chkHideBgLayer2">隐藏背景层2</Control>
+			<Control ID="chkHideBgLayer3">隐藏背景层3</Control>
+			<Control ID="chkHideBgLayer4">隐藏背景层4</Control>
+			<Control ID="chkDisableFrameSkipping">快进时禁用跳帧</Control>
 
-			<Control ID="chkDisableSprites">Disable sprites</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
 
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblChannelA">Channel A</Control>
-			<Control ID="lblChannelB">Channel B</Control>
-			<Control ID="lblSquare1">Square 1</Control>
-			<Control ID="lblSquare2">Square 2</Control>
-			<Control ID="lblWave">Wave</Control>
-			<Control ID="lblNoise">Noise</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannelA">声道A</Control>
+			<Control ID="lblChannelB">声道B</Control>
+			<Control ID="lblSquare1">方波1</Control>
+			<Control ID="lblSquare2">方波2</Control>
+			<Control ID="lblWave">波表</Control>
+			<Control ID="lblNoise">噪音</Control>
 
-			<Control ID="tpgInput">Input</Control>
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="lblPlayer1">Player 1</Control>
-			<Control ID="btnSetup">Setup</Control>
+			<Control ID="tpgInput">输入</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="lblPlayer1">玩家1</Control>
+			<Control ID="btnSetup">设置</Control>
 		</Form>
 
 		<Form ID="PceConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblConsoleType">Console Type:</Control>
-			<Control ID="lblCdRomType">CD-ROM System:</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblConsoleType">主机类型：</Control>
+			<Control ID="lblCdRomType">CD-ROM系统：</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblChannel1">Channel 1</Control>
-			<Control ID="lblChannel2">Channel 2</Control>
-			<Control ID="lblChannel3">Channel 3</Control>
-			<Control ID="lblChannel4">Channel 4</Control>
-			<Control ID="lblChannel5">Channel 5</Control>
-			<Control ID="lblChannel6">Channel 6</Control>
-			<Control ID="lblCdAudio">CD Audio</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannel1">声道1</Control>
+			<Control ID="lblChannel2">声道2</Control>
+			<Control ID="lblChannel3">声道3</Control>
+			<Control ID="lblChannel4">声道4</Control>
+			<Control ID="lblChannel5">声道5</Control>
+			<Control ID="lblChannel6">声道6</Control>
+			<Control ID="lblCdAudio">CD音频</Control>
 			<Control ID="lblAdpcm">ADPCM</Control>
 			
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblDeveloperSettings">Recommended settings for developers (homebrew / ROM hacking)</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
-			<Control ID="chkRandomPowerOnState">Randomize power-on state</Control>
-			<Control ID="chkEnableCdRomForHuCardGames">Enable CD-ROM emulation when running HuCard games</Control>
-			<Control ID="chkDisableCdRomSaveRamForHuCardGames">Disable CD-ROM save RAM when running HuCard games</Control>
-			<Control ID="chkUseHuC6280aAudio">Use HuC6280A audio (reduces popping)</Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblDeveloperSettings">开发者推荐设置（自制/ROM修改）</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
+			<Control ID="chkRandomPowerOnState">随机化开机状态</Control>
+			<Control ID="chkEnableCdRomForHuCardGames">运行HuCard游戏时启用CD-ROM模拟</Control>
+			<Control ID="chkDisableCdRomSaveRamForHuCardGames">运行HuCard游戏时禁用CD-ROM保存RAM</Control>
+			<Control ID="chkUseHuC6280aAudio">使用HuC6280A音频（减少爆音）</Control>
 			
-			<Control ID="tpgInput">Input</Control>
+			<Control ID="tpgInput">输入</Control>
 			
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
-			<Control ID="chkRemoveSpriteLimit">Remove sprite limit</Control>
-			<Control ID="chkDisableBackground">Disable background</Control>
-			<Control ID="chkDisableBackgroundVdc2">Disable background (VDC2 - SuperGrafx)</Control>
-			<Control ID="chkDisableSprites">Disable sprites</Control>
-			<Control ID="chkDisableSpritesVdc2">Disable sprites (VDC2 - SuperGrafx)</Control>
-			<Control ID="chkDisableFrameSkipping">Disable frame skipping when fast forwarding</Control>
-			<Control ID="chkForceFixedResolution">Use fixed output resolution (4x scale, ≈1024x956)</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
+			<Control ID="chkRemoveSpriteLimit">移除精灵限制</Control>
+			<Control ID="chkDisableBackground">禁用背景</Control>
+			<Control ID="chkDisableBackgroundVdc2">禁用背景（VDC2 - SuperGrafx）</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
+			<Control ID="chkDisableSpritesVdc2">禁用精灵（VDC2 - SuperGrafx）</Control>
+			<Control ID="chkDisableFrameSkipping">快进时禁用跳帧</Control>
+			<Control ID="chkForceFixedResolution">使用固定输出分辨率（4倍缩放，≈1024x956）</Control>
 
-			<Control ID="lblOverscan">Overscan</Control>
-			<Control ID="lblPalette">Palette</Control>
+			<Control ID="lblOverscan">过扫描</Control>
+			<Control ID="lblPalette">调色板</Control>
 		</Form>
 		
 		<Form ID="ColorPickerWindow">
-			<Control ID="wndTitle">Color picker</Control>
-			<Control ID="btnOk">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="wndTitle">取色器</Control>
+			<Control ID="btnOk">确定</Control>
+			<Control ID="btnCancel">取消</Control>
 		</Form>
 		
 		<Form ID="PaletteConfig">
-			<Control ID="btnSelectPalette">Load preset palette...</Control>
-			<Control ID="btnExportPalette">Export palette</Control>
-			<Control ID="btnLoadPalFile">Load palette file</Control>
+			<Control ID="btnSelectPalette">加载预设调色板...</Control>
+			<Control ID="btnExportPalette">导出调色板</Control>
+			<Control ID="btnLoadPalFile">加载调色板文件</Control>
 		</Form>
 
 		<Form ID="PceInputConfigView">
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="lblTurboTapConfig">Turbo Tap Configuration</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="lblTurboTapConfig">Turbo Tap配置</Control>
 
-			<Control ID="btnSetup">Setup</Control>
-			<Control ID="lblController">Controller:</Control>
-			<Control ID="lblPort1A">Port 1:</Control>
-			<Control ID="lblPort1B">Port 2:</Control>
-			<Control ID="lblPort1C">Port 3:</Control>
-			<Control ID="lblPort1D">Port 4:</Control>
-			<Control ID="lblPort1E">Port 5:</Control>
+			<Control ID="btnSetup">设置</Control>
+			<Control ID="lblController">控制器：</Control>
+			<Control ID="lblPort1A">端口1：</Control>
+			<Control ID="lblPort1B">端口2：</Control>
+			<Control ID="lblPort1C">端口3：</Control>
+			<Control ID="lblPort1D">端口4：</Control>
+			<Control ID="lblPort1E">端口5：</Control>
 
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
-			<Control ID="chkPreventSelectRunReset">Disable Run+Select combination (to avoid resets in games)</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下上+下或左+右）</Control>
+			<Control ID="chkPreventSelectRunReset">禁用Run+Select组合（避免游戏中重置）</Control>
 		</Form>
 
 		<Form ID="SmsConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblRegionSms">Region (Master System):</Control>
-			<Control ID="lblRegionGg">Region (Game Gear):</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblRegionSms">地区（Master System）：</Control>
+			<Control ID="lblRegionGg">地区（Game Gear）：</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblChannel1">Tone 1</Control>
-			<Control ID="lblChannel2">Tone 2</Control>
-			<Control ID="lblChannel3">Tone 3</Control>
-			<Control ID="lblChannel4">Noise</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannel1">音调1</Control>
+			<Control ID="lblChannel2">音调2</Control>
+			<Control ID="lblChannel3">音调3</Control>
+			<Control ID="lblChannel4">噪音</Control>
 			<Control ID="lblChannel5">YM2413</Control>
-			<Control ID="chkEnableFmAudio">Enable FM audio (YM2413)</Control>
+			<Control ID="chkEnableFmAudio">启用FM音频（YM2413）</Control>
 
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblDeveloperSettings">Recommended settings for developers (homebrew / ROM hacking)</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
-			<Control ID="lblSmsRevision">SMS Revision: </Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblDeveloperSettings">开发者推荐设置（自制/ROM修改）</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
+			<Control ID="lblSmsRevision">SMS版本：</Control>
 
-			<Control ID="tpgInput">Input</Control>
+			<Control ID="tpgInput">输入</Control>
 
-			<Control ID="tpgVideo">Video</Control>
+			<Control ID="tpgVideo">视频</Control>
 
-			<Control ID="lblSmsOverrides">SMS - Global Config Overrides</Control>
-			<Control ID="lblGgOverrides">Game Gear - Global Config Overrides</Control>
+			<Control ID="lblSmsOverrides">SMS - 全局配置覆盖</Control>
+			<Control ID="lblGgOverrides">Game Gear - 全局配置覆盖</Control>
 
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
-			<Control ID="chkUseSgPalette">Use SG-1000 palette when running SG-1000 software</Control>
-			<Control ID="chkGgBlendFrames">Enable LCD frame blending (Game Gear)</Control>
-			<Control ID="chkRemoveSpriteLimit">Remove sprite limit</Control>
-			<Control ID="chkDisableBackground">Disable background</Control>
-			<Control ID="chkDisableSprites">Disable sprites</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
+			<Control ID="chkUseSgPalette">运行SG-1000软件时使用SG-1000调色板</Control>
+			<Control ID="chkGgBlendFrames">启用LCD帧混合（Game Gear）</Control>
+			<Control ID="chkRemoveSpriteLimit">移除精灵限制</Control>
+			<Control ID="chkDisableBackground">禁用背景</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
 
-			<Control ID="lblOverscan">Overscan</Control>
+			<Control ID="lblOverscan">过扫描</Control>
 			<Control ID="lblOverscanNtsc">NTSC</Control>
 			<Control ID="lblOverscanPal">PAL</Control>
 			<Control ID="lblOverscanGameGear">Game Gear</Control>
 
-			<Control ID="lblGameGearPreset">Game Gear screen (default)</Control>
-			<Control ID="lblFullFramePreset">Full frame</Control>
-			<Control ID="lblFullFrameFirstColumnPreset">Full frame (excluding first column)</Control>
+			<Control ID="lblGameGearPreset">Game Gear屏幕（默认）</Control>
+			<Control ID="lblFullFramePreset">全帧</Control>
+			<Control ID="lblFullFrameFirstColumnPreset">全帧（排除首列）</Control>
 
-			<Control ID="btnSelectPreset">Select Preset...</Control>
+			<Control ID="btnSelectPreset">选择预设...</Control>
 		</Form>
 
 		<Form ID="SmsInputConfigView">
-			<Control ID="grpControllers">Controllers</Control>
+			<Control ID="grpControllers">控制器</Control>
 
-			<Control ID="btnSetup">Setup</Control>
-			<Control ID="lblController1">Port 1:</Control>
-			<Control ID="lblController2">Port 2:</Control>
+			<Control ID="btnSetup">设置</Control>
+			<Control ID="lblController1">端口1：</Control>
+			<Control ID="lblController2">端口2：</Control>
 
-			<Control ID="grpGeneral">General</Control>
+			<Control ID="grpGeneral">常规</Control>
 
-			<Control ID="grpGeneral">General</Control>
-			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
+			<Control ID="grpGeneral">常规</Control>
+			<Control ID="chkAllowInvalidInput">允许无效输入（例如同时按下上+下或左+右）</Control>
 		</Form>
 
 		<Form ID="OtherConsolesConfigView">
@@ -582,89 +583,89 @@
 		</Form>
 
 		<Form ID="CvConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblRegion">Region:</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblRegion">地区：</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblChannel1">Tone 1</Control>
-			<Control ID="lblChannel2">Tone 2</Control>
-			<Control ID="lblChannel3">Tone 3</Control>
-			<Control ID="lblChannel4">Noise</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannel1">音调1</Control>
+			<Control ID="lblChannel2">音调2</Control>
+			<Control ID="lblChannel3">音调3</Control>
+			<Control ID="lblChannel4">噪音</Control>
 
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="lblDeveloperSettings">Recommended settings for developers (homebrew / ROM hacking)</Control>
-			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="lblDeveloperSettings">开发者推荐设置（自制/ROM修改）</Control>
+			<Control ID="lblRamPowerOnState">RAM默认开机状态：</Control>
 
-			<Control ID="tpgInput">Input</Control>
+			<Control ID="tpgInput">输入</Control>
 
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
-			<Control ID="chkRemoveSpriteLimit">Remove sprite limit</Control>
-			<Control ID="chkDisableBackground">Disable background</Control>
-			<Control ID="chkDisableSprites">Disable sprites</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
+			<Control ID="chkRemoveSpriteLimit">移除精灵限制</Control>
+			<Control ID="chkDisableBackground">禁用背景</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
 
-			<Control ID="grpControllers">Controllers</Control>
+			<Control ID="grpControllers">控制器</Control>
 
-			<Control ID="btnSetup">Setup</Control>
-			<Control ID="lblController1">Port 1:</Control>
-			<Control ID="lblController2">Port 2:</Control>
+			<Control ID="btnSetup">设置</Control>
+			<Control ID="lblController1">端口1：</Control>
+			<Control ID="lblController2">端口2：</Control>
 		</Form>
 		
 		<Form ID="WsConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblModel">Model:</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblModel">型号：</Control>
 
-			<Control ID="tpgEmulation">Emulation</Control>
-			<Control ID="chkUseBootRom">Use boot ROM</Control>
+			<Control ID="tpgEmulation">模拟</Control>
+			<Control ID="chkUseBootRom">使用启动ROM</Control>
 						
-			<Control ID="tpgVideo">Video</Control>
-			<Control ID="lblLcdSettings">LCD Settings</Control>
-			<Control ID="chkAutoRotate">Automatically rotate screen</Control>
-			<Control ID="chkBlendFrames">Enable LCD frame blending</Control>
-			<Control ID="chkLcdShowIcons">Show LCD icons</Control>
-			<Control ID="chkLcdAdjustColors">Enable LCD color emulation</Control>
-			<Control ID="chkHideBgLayer1">Hide background layer 1</Control>
-			<Control ID="chkHideBgLayer2">Hide background layer 2</Control>
+			<Control ID="tpgVideo">视频</Control>
+			<Control ID="lblLcdSettings">LCD设置</Control>
+			<Control ID="chkAutoRotate">自动旋转屏幕</Control>
+			<Control ID="chkBlendFrames">启用LCD帧混合</Control>
+			<Control ID="chkLcdShowIcons">显示LCD图标</Control>
+			<Control ID="chkLcdAdjustColors">启用LCD色彩模拟</Control>
+			<Control ID="chkHideBgLayer1">隐藏背景层1</Control>
+			<Control ID="chkHideBgLayer2">隐藏背景层2</Control>
 
-			<Control ID="chkDisableSprites">Disable sprites</Control>
+			<Control ID="chkDisableSprites">禁用精灵</Control>
 
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
 
-			<Control ID="tpgAudio">Audio</Control>
-			<Control ID="lblAudioMode">Output mode: </Control>
-			<Control ID="grpVolume">Volume</Control>
-			<Control ID="lblChannel1">Channel 1</Control>
-			<Control ID="lblChannel2">Channel 2</Control>
-			<Control ID="lblChannel3">Channel 3</Control>
-			<Control ID="lblChannel4">Channel 4</Control>
+			<Control ID="tpgAudio">音频</Control>
+			<Control ID="lblAudioMode">输出模式：</Control>
+			<Control ID="grpVolume">音量</Control>
+			<Control ID="lblChannel1">声道1</Control>
+			<Control ID="lblChannel2">声道2</Control>
+			<Control ID="lblChannel3">声道3</Control>
+			<Control ID="lblChannel4">声道4</Control>
 			<Control ID="lblChannel5">Hyper Voice</Control>
 
-			<Control ID="tpgInput">Input</Control>
-			<Control ID="grpControllers">Controllers</Control>
-			<Control ID="lblPlayer1Horizontal">Controller (Horizontal)</Control>
-			<Control ID="lblPlayer1Vertical">Controller (Vertical)</Control>
-			<Control ID="btnSetup">Setup</Control>
+			<Control ID="tpgInput">输入</Control>
+			<Control ID="grpControllers">控制器</Control>
+			<Control ID="lblPlayer1Horizontal">控制器（水平）</Control>
+			<Control ID="lblPlayer1Vertical">控制器（垂直）</Control>
+			<Control ID="btnSetup">设置</Control>
 		</Form>
 		
 		<Form ID="ShortcutKeysTabView">
-			<Control ID="lblShortcutWarning">Warning: Your current configuration contains conflicting key bindings. If this is not intentional, please review and correct your key bindings.</Control>
-			<Control ID="colAction">Action</Control>
-			<Control ID="colBinding1">Binding #1</Control>
-			<Control ID="colBinding2">Binding #2</Control>
+			<Control ID="lblShortcutWarning">警告：当前配置包含冲突的按键绑定。若非故意，请检查并修正按键绑定。</Control>
+			<Control ID="colAction">操作</Control>
+			<Control ID="colBinding1">绑定#1</Control>
+			<Control ID="colBinding2">绑定#2</Control>
 		</Form>
 		<Form ID="DebuggerShortcutKeyGrid">
-			<Control ID="colAction">Shortcut</Control>
-			<Control ID="colBinding1">Keys</Control>
+			<Control ID="colAction">快捷键</Control>
+			<Control ID="colBinding1">按键</Control>
 		</Form>
 
 		<Form ID="ConfigWindow">
-			<Control ID="wndTitle">Settings</Control>
+			<Control ID="wndTitle">设置</Control>
 
-			<Control ID="tabAudio">Audio</Control>
-			<Control ID="tabEmulation">Emulation</Control>
-			<Control ID="tabInput">Input</Control>
-			<Control ID="tabVideo">Video</Control>
+			<Control ID="tabAudio">音频</Control>
+			<Control ID="tabEmulation">模拟</Control>
+			<Control ID="tabInput">输入</Control>
+			<Control ID="tabVideo">视频</Control>
 			<Control ID="tabNes">NES</Control>
 			<Control ID="tabSnes">SNES</Control>
 			<Control ID="tabGameboy">Game Boy</Control>
@@ -672,60 +673,60 @@
 			<Control ID="tabPcEngine">PC Engine</Control>
 			<Control ID="tabSms">SMS</Control>
 			<Control ID="tabWs">WonderSwan</Control>
-			<Control ID="tabOtherConsoles">Other systems</Control>
-			<Control ID="tabPreferences">Preferences</Control>
+			<Control ID="tabOtherConsoles">其他主机</Control>
+			<Control ID="tabPreferences">首选项</Control>
 
-			<Control ID="btnOpenMesenFolder">Open Mesen folder</Control>
-			<Control ID="btnResetSettings">Reset all settings</Control>
+			<Control ID="btnOpenMesenFolder">打开Mesen文件夹</Control>
+			<Control ID="btnResetSettings">重置所有设置</Control>
 
-			<Control ID="btnOK">OK</Control>
-			<Control ID="btnCancel">Cancel</Control>
+			<Control ID="btnOK">确定</Control>
+			<Control ID="btnCancel">取消</Control>
 		</Form>
 		
 		<Form ID="PreferencesConfigView">
-			<Control ID="tpgGeneral">General</Control>
-			<Control ID="lblTheme">Theme:</Control>
-			<Control ID="lblRequiresRestart">(requires restart)</Control>
+			<Control ID="tpgGeneral">常规</Control>
+			<Control ID="lblTheme">主题：</Control>
+			<Control ID="lblRequiresRestart">（需要重启）</Control>
 			
-			<Control ID="lblDisplayLanguage">Display Language:</Control>
-			<Control ID="chkSingleInstance">Only allow one instance of Mesen at a time</Control>
-			<Control ID="chkAutomaticallyCheckForUpdates">Automatically check for updates</Control>
+			<Control ID="lblDisplayLanguage">显示语言：</Control>
+			<Control ID="chkSingleInstance">仅允许一个Mesen实例运行</Control>
+			<Control ID="chkAutomaticallyCheckForUpdates">自动检查更新</Control>
 
-			<Control ID="chkDeveloperMode">Enable developer mode</Control>
+			<Control ID="chkDeveloperMode">启用开发者模式</Control>
 
-			<Control ID="lblPauseBackgroundSettings">Pause/Background Settings</Control>
-			<Control ID="lblMiscSettings">Miscellaneous Settings</Control>
-			<Control ID="chkAutoHideMenu">Automatically hide menu bar</Control>
-			<Control ID="chkDisplayTitleBarInfo">Display additional information in title bar</Control>
+			<Control ID="lblPauseBackgroundSettings">暂停/后台设置</Control>
+			<Control ID="lblMiscSettings">其他设置</Control>
+			<Control ID="chkAutoHideMenu">自动隐藏菜单栏</Control>
+			<Control ID="chkDisplayTitleBarInfo">标题栏显示额外信息</Control>
 
-			<Control ID="chkConfirmExitResetPower">Display confirmation dialog before reset / power cycle / power off / exit</Control>
-			<Control ID="chkPauseOnMovieEnd">Pause when a movie finishes playing</Control>
-			<Control ID="chkShowMovieIcons">Display play/pause icon when playing/recording a movie</Control>
-			<Control ID="chkShowTurboRewindIcons">Display icon when fast-forwarding/rewinding</Control>
-			<Control ID="chkAllowBackgroundInput">Allow input when in background (controllers only)</Control>
+			<Control ID="chkConfirmExitResetPower">退出/重置/关机前显示确认对话框</Control>
+			<Control ID="chkPauseOnMovieEnd">电影播放结束时暂停</Control>
+			<Control ID="chkShowMovieIcons">播放/录制电影时显示播放/暂停图标</Control>
+			<Control ID="chkShowTurboRewindIcons">快进/倒带时显示图标</Control>
+			<Control ID="chkAllowBackgroundInput">后台时允许输入（仅限控制器）</Control>
 
-			<Control ID="chkPauseWhenInBackground">Pause when in background</Control>
-			<Control ID="chkPauseInMenuAndConfig">Pause when in menu and config dialogs</Control>
-			<Control ID="chkPauseInDebugger">Debugging tools</Control>
+			<Control ID="chkPauseWhenInBackground">后台运行时暂停</Control>
+			<Control ID="chkPauseInMenuAndConfig">在菜单和配置对话框中暂停</Control>
+			<Control ID="chkPauseInDebugger">调试工具</Control>
 
-			<Control ID="chkAutoLoadIps">Automatically load IPS/BPS patches</Control>
-			<Control ID="chkHidePauseOverlay">Hide the pause screen</Control>
-			<Control ID="chkDisplayMovieIcons">Display play/record icon when playing or recording a movie</Control>
+			<Control ID="chkAutoLoadIps">自动加载IPS/BPS补丁</Control>
+			<Control ID="chkHidePauseOverlay">隐藏暂停界面</Control>
+			<Control ID="chkDisplayMovieIcons">播放或录制电影时显示播放/录制图标</Control>
 
-			<Control ID="tpgFiles">Folders/Files</Control>
-			<Control ID="grpFileAssociations">File Associations</Control>
-			<Control ID="chkSnesRomFiles">SNES roms: .sfc, .smc, .swc, .fig, .bs</Control>
-			<Control ID="chkSnesMusicFiles">SNES music: .spc</Control>
-			<Control ID="chkNesRomFiles">NES roms: .nes, .unif, .fds, .qd, .studybox</Control>
-			<Control ID="chkNesMusicFiles">NES music: .nsf, .nsfe</Control>
-			<Control ID="chkGbRomFiles">Game Boy roms: .gb, .gbc, .gbx</Control>
-			<Control ID="chkGbMusicFiles">Game Boy music: .gbs</Control>
-			<Control ID="chkGbaRomFiles">Game Boy Advance roms: .gba</Control>
-			<Control ID="chkPceRomFiles">PC Engine roms: .pce, .sgx</Control>
-			<Control ID="chkPceMusicFiles">PC Engine music: .hes</Control>
-			<Control ID="chkSmsRomFiles">SMS roms: .sms</Control>
-			<Control ID="chkGameGearRomFiles">Game Gear roms: .gg</Control>
-			<Control ID="chkSgRomFiles">SG-1000 roms: .sg</Control>
+			<Control ID="tpgFiles">文件夹/文件</Control>
+			<Control ID="grpFileAssociations">文件关联</Control>
+			<Control ID="chkSnesRomFiles">SNES ROM：.sfc, .smc, .swc, .fig, .bs</Control>
+			<Control ID="chkSnesMusicFiles">SNES音乐：.spc</Control>
+			<Control ID="chkNesRomFiles">NES ROM：.nes, .unif, .fds, .qd, .studybox</Control>
+			<Control ID="chkNesMusicFiles">NES音乐：.nsf, .nsfe</Control>
+			<Control ID="chkGbRomFiles">Game Boy ROM：.gb, .gbc, .gbx</Control>
+			<Control ID="chkGbMusicFiles">Game Boy音乐：.gbs</Control>
+			<Control ID="chkGbaRomFiles">Game Boy Advance ROM：.gba</Control>
+			<Control ID="chkPceRomFiles">PC Engine ROM：.pce, .sgx</Control>
+			<Control ID="chkPceMusicFiles">PC Engine音乐：.hes</Control>
+			<Control ID="chkSmsRomFiles">SMS ROM：.sms</Control>
+			<Control ID="chkGameGearRomFiles">Game Gear ROM：.gg</Control>
+			<Control ID="chkSgRomFiles">SG-1000 ROM：.sg</Control>
 			<Control ID="chkCvRomFiles">ColecoVision roms: .col</Control>
 			<Control ID="chkWsRomFiles">WonderSwan roms: .ws, .wsc</Control>
 
